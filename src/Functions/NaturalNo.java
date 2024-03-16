@@ -1,3 +1,5 @@
+package Functions;
+
 public class NaturalNo
 {
     public static int sumOfNaturals(int n)

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 
-public class HelloWorld
+public class collection
 {
     public static void main(String[] args) {
         List<Integer>list = new ArrayList<Integer>();
@@ -14,7 +14,7 @@ public class HelloWorld
         list.add(27);
         list.add(28);
         list.add(29);
-        int k = HelloWorld.binarySearch(list,125);
+        int k = Collections.binarySearch(list,125);
         if (k>=0)
         {
             System.out.println("Yes found");
